@@ -9,8 +9,6 @@ const $btnCreateTicket = document.querySelector('.btn');
 
 const socket = io();
 
-
-
 socket.on('connect', () => {
     // console.log('Conectado');
 
